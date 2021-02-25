@@ -1,0 +1,14 @@
+de  importação aleatória  randint 
+imprimir ( 'Bem vindo!' )
+sorteado  =  randint ( 1 , 100 )
+chute  =  0
+enquanto  chute  ! =  sorteado :
+    chute  =  int ( input ( 'Chute:' ))
+    se  chute  ==  sorteado :
+        imprimir ( 'Você venceu!' )
+    mais :
+        se  chute  >  sorteado :
+            imprimir ( 'Alto' )
+        mais :
+            imprimir ( 'Baixo' )
+imprimir ( 'Fim do jogo!' )
